@@ -1,0 +1,35 @@
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  width: 15px;
+  height: auto;
+  margin: 10px;
+}
+
+#content-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-task {
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+}
+
+.done-text {
+  color: black 0.3;
+  text-decoration: line-through;
+}
